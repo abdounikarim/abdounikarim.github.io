@@ -3,8 +3,7 @@
 ## Website
 
 See live resume at [https://abdounikarim.github.io](https://abdounikarim.github.io).
-The website is automatically updated, thanks to Github Actions 🚀.
-See the [configuration file](./.github/workflows/main.yml) to know more about this.
+The website is automatically updated, thanks to [Github Pages](https://pages.github.com/).
 
 ## Update resume
 
