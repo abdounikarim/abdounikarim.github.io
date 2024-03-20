@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "html-export-pdf-cli": "^1.1.5",
     "jsonresume-theme-kendall-markdown": "^0.2.9",
     "resumed": "^3.0.1"
   }
