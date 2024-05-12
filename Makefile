@@ -1,14 +1,22 @@
+JSON_RESUME_THEME ?= jsonresume-theme-relaxed
+RESUME = ./node_modules/.bin/resume
+
 ##
-## # Export
+## # Commands
 ##---------------------------------------------------------------------------
 
-.PHONY: html pdf
+.PHONY: all html pdf serve
+
+all: html pdf	## Export to HTML and PDF
 
 html:				## Export to HTML
-					./node_modules/.bin/resumed --theme jsonresume-theme-kendall-markdown --output index.html
+					@$(RESUME) export index.html --theme $(JSON_RESUME_THEME)
 
 pdf:				## Export to PDF
-					./node_modules/.bin/html-export-pdf-cli ./index.html -o resume.pdf
+					@$(RESUME) export resume.pdf --theme $(JSON_RESUME_THEME)
+
+serve:				## Serve the resume
+					@$(RESUME) serve --dir . --resume resume.json --theme $(JSON_RESUME_THEME)
 
 ##
 ## # Help

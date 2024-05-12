@@ -15,9 +15,24 @@ pnpm install
 
 Now, just update the `resume.json` content.
 
+Launch the server:
+```
+make serve
+```
+
 Export to html:
 ```
 make html
+```
+
+Export to pdf:
+```
+make pdf
+```
+
+Export to html and pdf:
+```
+make all
 ```
 
 ## Change theme
@@ -32,24 +47,25 @@ Don't forget to update the command when exporting your file.
 Install latte theme:
 
 ```
-pnpm install jsonresume-theme-latte
+pnpm install -D jsonresume-theme-latte
+```
+
+Launch the server:
+```
+JSON_RESUME_THEME=jsonresume-theme-latte make serve
 ```
 
 Export to html:
 ```
-./node_modules/.bin/resumed --theme jsonresume-theme-latte --output index.html
-```
-
-## Pdf export
-
-Install project:
-
-```
-pnpm install html-export-pdf-cli
+JSON_RESUME_THEME=jsonresume-theme-latte make html
 ```
 
 Export to pdf:
 ```
-make pdf
+JSON_RESUME_THEME=jsonresume-theme-latte make pdf
 ```
 
+Export to html and pdf:
+```
+JSON_RESUME_THEME=jsonresume-theme-latte make all
+```
