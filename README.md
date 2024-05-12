@@ -10,7 +10,7 @@ The website is automatically updated, thanks to [Github Pages](https://pages.git
 Install project:
 
 ```
-npm install
+pnpm install
 ```
 
 Now, just update the `resume.json` content.
@@ -32,7 +32,7 @@ Don't forget to update the command when exporting your file.
 Install latte theme:
 
 ```
-npm install jsonresume-theme-latte
+pnpm install jsonresume-theme-latte
 ```
 
 Export to html:
@@ -45,7 +45,7 @@ Export to html:
 Install project:
 
 ```
-npm install html-export-pdf-cli
+pnpm install html-export-pdf-cli
 ```
 
 Export to pdf:
