@@ -17,7 +17,7 @@ Now, just update the `resume.json` content.
 
 Export to html:
 ```
-./node_modules/.bin/resumed --theme jsonresume-theme-kendall-markdown --output index.html
+make html
 ```
 
 ## Change theme
@@ -50,6 +50,6 @@ pnpm install html-export-pdf-cli
 
 Export to pdf:
 ```
-./node_modules/.bin/html-export-pdf-cli ./index.html -o resume.pdf
+make pdf
 ```
 
