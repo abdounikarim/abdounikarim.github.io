@@ -5,6 +5,11 @@
 See live resume at [https://abdounikarim.github.io](https://abdounikarim.github.io).
 The website is automatically updated, thanks to [Github Pages](https://pages.github.com/).
 
+## Export resume from LinkedIn
+
+If you want to export your resume from LinkedIn, you can use [JSON Resume Exporter](https://chromewebstore.google.com/detail/json-resume-exporter/caobgmmcpklomkcckaenhjlokpmfbdec?pli=1).
+More on that [here](https://jsonresume.org/getting-started).
+
 ## Update resume
 
 Install project:
