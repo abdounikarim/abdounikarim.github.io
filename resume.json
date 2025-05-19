@@ -2,29 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Abdelkarim Abdouni",
-    "label": "Programmer",
-    "image": "",
-    "email": "Abdelkarim.Abdouni@mail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://Abdelkarimhendricks.example.com",
-    "summary": "Abdelkarim hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "label": "Développeur FullStack",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQE7s4n4jTY5vw/profile-displayphoto-shrink_400_400/B4EZRAA45UHAAg-/0/1736240762883?e=1753315200&v=beta&t=ACHzHm8K5KrgDYT_hXszTmN3qp9F6ZSSp2ETtIYWQB8",
+    "email": "abdounikarim@gmail.com",
+    "phone": "06.45.65.50.16",
+    "url": "https://abdounikarim.com",
+    "summary": "Développeur backend depuis plus de 10 ans et formateur depuis 6 ans \uD83D\uDCBB\uD83E\uDDE0\n\nJe peux intervenir sur différentes étapes de développement de votre projet :\n\n-mise en place d'une architecture applicative \uD83C\uDFD7\uFE0F\n\n-automatisation de tâches \uD83E\uDD16\n\n-mise en place d'un outil de CI CD \uD83D\uDD04\n\n-développement de fonctionnalités ✨\n\n-corrections de bugs \uD83D\uDC1B\n\n-mise en place de bonnes pratiques de développement \uD83D\uDCDD\n\n-migration de version (PHP, Symfony) \uD83D\uDE80\n\n-optimisation des performances de votre application ⚡\n\n-rédaction de documentation \uD83D\uDCDA\n\n-rédaction de tests automatisés (unitaires, end-to-end) \uD83E\uDDEA\n\n-formation et accompagnement à la montée en compétences \uD83C\uDF93\n\nJe travaille au quotidien avec la stack suivante : PHP, Symfony \uD83D\uDEE0\uFE0F mais je ne suis pas fermé à l'idée d'explorer de nouvelles technos, ou de nouveaux outils.\nN'hésitez pas à me contacter si vous souhaitez en savoir plus \uD83D\uDCE7",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "LinkedIn",
+        "username": "abdelkarim-abdouni",
+        "url": "https://www.linkedin.com/in/abdelkarim-abdouni"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "GitHub",
+        "username": "abdounikarim",
+        "url": "https://github.com/abdounikarim"
       }
     ]
   },
