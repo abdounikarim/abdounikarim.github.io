@@ -1,0 +1,259 @@
+design:
+  theme: engineeringclassic
+  header:
+    name_font_family: Ubuntu
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    font_family: Ubuntu
+    font_size: 1.4em
+    bold: true
+    small_caps: true
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  text:
+    font_family: Ubuntu
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+cv:
+  photo: ./assets/profile_picture.jpg
+  name: Abdelkarim ABDOUNI
+  location: Le Perrier, Vendée, France
+  email: abdounikarim@gmail.com
+  phone: tel:+33-6-45-65-50-16
+  social_networks:
+    - network: LinkedIn
+      username: abdelkarim-abdouni
+    - network: GitHub
+      username: abdounikarim
+  sections:
+    Tech Lead Fullstack:
+      - |
+        Développeur passionné depuis plus de 10 ans et formateur depuis 6 ans, je peux intervenir sur différentes étapes de développement de votre projet :
+        - mise en place d'une architecture applicative
+        - automatisation de tâches (configuration de serveurs, CI CD, etc.)
+        - développement de fonctionnalités
+        - corrections de bugs
+        - respect des bonnes pratiques de développement
+        - migration de version (PHP, Symfony)
+        - optimisation des performances de votre application
+        - rédaction de documentation
+        - écriture de tests automatisés (unitaires, end-to-end)
+        - formation et accompagnement à la montée en compétences
+    Compétences:
+      - "- Langages : PHP, JavaScript, TypeScript, HTML5, CSS3"
+      - "- Frameworks & Librairies : Symfony, API Platform, Angular, Vue.js, React, Svelte"
+      - "- Bases de données : PostgreSQL, MariaDB, MySQL"
+      - "- DevOps : GitHub Actions, Docker, Ansible"
+    Expériences Professionnelles:
+      - company: "*[sensiolabs.com](https://sensiolabs.com/)*"
+        position: Développeur
+        start_date: 2022-01
+        location: Full Remote
+        summary:
+        highlights:
+          - Développement de fonctionnalités frontend
+          - Développement de fonctionnalités backend
+          - Correction de bugs
+          - Développement d'applications web
+          - Développement d'API Rest
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Rédaction de tests unitaires, fonctionnels et end to end
+          - Revue de code
+          - Préparation à la certification Symfony
+      - company: "CodeDeDev"
+        position: Lead Développeur
+        start_date: 2020-05
+        end_date: 2021-12
+        location: Full Remote
+        summary:
+        highlights:
+          - Développement de fonctionnalités frontend
+          - Développement de fonctionnalités backend
+          - Correction de bugs
+          - Développement d'applications web
+          - Développement d'API Rest
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Rédaction de tests unitaires, fonctionnels et end to end
+          - Revue de code
+          - Préparation à la certification Symfony
+      - company: "*[registresecurite.com](https://www.registresecurite.com/)*"
+        position: Développeur FullStack
+        start_date: 2020-09
+        end_date: 2021-11
+        location: La Roche sur Yon, France
+        summary:
+        highlights:
+          - Optimisation de la structure de la base de données
+          - Développement d'une fonctionnalité d'export de données au format Excel et PDF
+          - Automatisation de la configuration de serveurs
+          - Mise en place d'une nouvelle architecture sur Github
+          - Mise en place d'une nouvelle API REST
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Mise en place d'outils pour optimiser le travail en équipe
+          - Rédaction de tests fonctionnels et end to end
+          - Revue de code source
+      - company: "*[github.com](https://github.com/)*"
+        position: Contributeur Open Source
+        start_date: 2017-09
+        location: The Web
+        summary:
+        highlights:
+          - Optimisation de la structure de la base de données
+          - Développement d'une fonctionnalité d'export de données au format Excel et PDF
+          - Automatisation de la configuration de serveurs
+          - Mise en place d'une nouvelle architecture sur Github
+          - Mise en place d'une nouvelle API REST
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Mise en place d'outils pour optimiser le travail en équipe
+          - Rédaction de tests fonctionnels et end to end
+          - Revue de code source
+      - company: "Freelance"
+        position: Développeur FullStack
+        start_date: 2015-02
+        end_date: 2021-11
+        location: The Web
+        summary:
+        highlights:
+          - Optimisation de la structure de la base de données
+          - Développement d'une fonctionnalité d'export de données au format Excel et PDF
+          - Automatisation de la configuration de serveurs
+          - Mise en place d'une nouvelle architecture sur Github
+          - Mise en place d'une nouvelle API REST
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Mise en place d'outils pour optimiser le travail en équipe
+          - Rédaction de tests fonctionnels et end to end
+          - Revue de code source
+      - company: "*OpenClassRooms*"
+        position: Mentor
+        start_date: 2015-06
+        end_date: 2020-12
+        location: The Web
+        summary:
+        highlights:
+          - Optimisation de la structure de la base de données
+          - Développement d'une fonctionnalité d'export de données au format Excel et PDF
+          - Automatisation de la configuration de serveurs
+          - Mise en place d'une nouvelle architecture sur Github
+          - Mise en place d'une nouvelle API REST
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Mise en place d'outils pour optimiser le travail en équipe
+          - Rédaction de tests fonctionnels et end to end
+          - Revue de code source
+      - company: "WhatZeWeb"
+        position: Mentor
+        start_date: 2018-01
+        end_date: 2020-05
+        location: La Roche sur Yon, France
+        summary:
+        highlights:
+          - Optimisation de la structure de la base de données
+          - Développement d'une fonctionnalité d'export de données au format Excel et PDF
+          - Automatisation de la configuration de serveurs
+          - Mise en place d'une nouvelle architecture sur Github
+          - Mise en place d'une nouvelle API REST
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Mise en place d'outils pour optimiser le travail en équipe
+          - Rédaction de tests fonctionnels et end to end
+          - Revue de code source
+      - company: "IESA Multimédia"
+        position: Formateur
+        start_date: 2015-09
+        end_date: 2015-12
+        location: La Roche sur Yon, France
+        summary:
+        highlights:
+          - Optimisation de la structure de la base de données
+          - Développement d'une fonctionnalité d'export de données au format Excel et PDF
+          - Automatisation de la configuration de serveurs
+          - Mise en place d'une nouvelle architecture sur Github
+          - Mise en place d'une nouvelle API REST
+          - Mise en place d'un process de CI CD
+          - Mise en place d'une configuration Docker sur tous les environnements
+          - Optimisation des performances de l'application
+          - Audit de l'état actuel de l'application
+          - Rédaction et mise à jour de documentation technique
+          - Mise en place de bonnes pratiques de développement
+          - Mise en place d'outils pour optimiser le travail en équipe
+          - Rédaction de tests fonctionnels et end to end
+          - Revue de code source
+    Formations:
+      - institution: OpenClassrooms
+        area: "[Développeur d'Applications PHP Symfony](https://openclassrooms.com/fr/paths/59-developpeur-dapplication-php-symfony)"
+        location: En ligne
+        start_date: 2023-03
+        end_date: 2024-03
+        summary: |
+          Grâce à la spécialisation PHP / Symfony, vous aurez abordé tous les sujets centraux vous permettant de développer une application de manière professionnelle et robuste. Depuis l’affichage de données provenant de la base de données, la traduction de contenu, construire une API REST…
+          Le développement PHP est à la portée de tous, il s’agit de faire la différence en matière de conception et exécution. Nous aborderons l'ensemble des sujets nécessaires à de bonnes bases pour entrer sereinement dans le monde du développement web professionnel (l'affichage de données provenant de la base de données, la traduction de contenu, construire une API REST…).
+          Suivez cette formation en ligne pour obtenir le diplôme “Développeur d’application”* enregistré au RNCP, de niveau II reconnu par l’État (équivalent au niveau Bac+3/4). Ce diplôme est délivré par OpenClassrooms.
+          Le développeur d’application a pour mission de créer des sites dynamiques grâce à un langage de programmation. Il est chargé de :
+        highlights:
+          - "analyser les besoins à partir du cahier des charges défini par le client ou le chef de projet"
+          - "définir les différentes étapes de fonctionnement de l’application"
+          - "étudier l’ensemble des solutions techniques disponibles"
+          - "développer, tester et valider les fonctionnalités du site"
+          - "assurer le support technique du site et produire une documentation technique et fonctionnelle du site pour le client"
+          - "apporter d’éventuelles corrections de bugs et d’effectuer des mises à jour"
+
+      - institution: OpenClassrooms
+        area: "[Tech lead](https://openclassrooms.com/fr/paths/96-tech-lead)"
+        location: En ligne
+        start_date: 2017-03
+        end_date: 2017-05
+        summary: |
+          En contact régulier avec la direction de l’entreprise, manager de votre équipe de développeurs, vous aurez un rôle essentiel dans le fonctionnement technique de l’entreprise.
+          La formation "Tech Lead" vous permet d'obtenir le titre “Expert en ingénierie informatique” de niveau I (Bac+5), enregistré au RNCP, reconnu par l’État. Cette formation a été conçue en partenariat avec Sciences-U Lyon, certificateur du diplôme.
+          Vous souhaitez mêler vos deux passions, le développement et le management d'équipe ? Devenez Tech Lead ! Le secteur recrute activement et manque de talents, les entreprises n’attendent plus que vous !
+          Vous pourrez avoir des responsabilités variées et enrichissantes, telles que:
+        highlights:
+          - "Définir la stratégie informatique d’une organisation"
+          - "Recruter et former une équipe de développeurs et administrateurs systèmes"
+          - "Coordonner le travail de développeurs en interface avec les équipes business"
+          - "Développer des applications web et mobile"
